@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!isPlaying) {
       music.play();
       musicBtn.innerHTML =
-        '<span>hetcuu</span><div class="btn-secondary"></div>';
+        '<span>Tắt nhạc</span><div class="btn-secondary"></div>';
       isPlaying = true;
     } else {
       music.pause();
